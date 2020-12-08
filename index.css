@@ -8,3 +8,8 @@ footer {
     height: 20vh;
     background-color: blue;
 }
+
+footer h1 {
+    font-size: 40px;
+    color: black
+}
