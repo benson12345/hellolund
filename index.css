@@ -1,22 +1,21 @@
 body {
     margin: 0; 
-
 }
 
 .wrapper {
-    min-height: 100vh;
+    min-height: 100%;
     display: grid;
     grid-template-rows: auto 1fr auto
 }
 
 header {
     display: grid;
-    height: 90vh;
+    height: 90%;
     background-color: green;
 }
 
 main {
-    min-height: 100vh;
+    min-height: 100%;
     background-color: yellow;
 }
 
@@ -31,3 +30,4 @@ footer h1 {
     font-size: 40px;
     color: black
 }
+
