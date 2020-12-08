@@ -1,11 +1,29 @@
+body {
+    margin: 0; 
+
+}
+
 .wrapper {
     min-height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto
 }
 
+header {
+    display: grid;
+    height: 90vh;
+    background-color: violet;
+}
+
+main {
+    min-height: 100vh;
+    background-color: lightblue;
+}
+
 footer {
-    height: 20vh;
+    display: grid;
+    justify-items: center;
+    height: 100px;
     background-color: blue;
 }
 
